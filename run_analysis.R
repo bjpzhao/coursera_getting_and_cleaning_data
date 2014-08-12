@@ -65,3 +65,7 @@ for (subj in subjects) {
 }
 
 write.table(DataWithMeans, file="DataWithMeans.txt", row.names = FALSE )
+
+
+# data <- read.table("./DataWithMeans.txt")
+# data

@@ -14,8 +14,8 @@ The cleanup script (run_analysis.R) does the following:
 * Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ## Running the script
-* Unzip the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and rename the folder with "data".
-* Make sure the folder "data" and the run_analysis.R script are both in the current working directory.
+* Unzip the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
+* Make sure the folder "getdata-projectfiles-UCI HAR Dataset" and the run_analysis.R script are both in the current working directory.
 * Use source("run_analysis.R") command in RStudio.
 * You will find two output files are generated in the current working directory:
  - 1. merged_data.txt (7.9 Mb): it contains a data frame called cleanedData with 10299*68 dimension.
